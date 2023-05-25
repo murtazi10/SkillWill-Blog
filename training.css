@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    background-color:  #0F172A;
+}
+
+
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+
+.navigation li{
+    padding: 10px;
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    padding: 34px 0;
+    
+}
+
+.navigation li a{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8FAFC;
+    text-decoration: none;
+
+}
+
+h2{
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 56px;
+    color:#F8FAFC;
+    margin-bottom: 83px;
+    
+    
+}
+
+h2 span{
+    color: #16B8F3;
+}
+
+.container-small {
+    max-width: 1150px;
+    margin: 0 auto;
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.card{
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 34px  8px;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.card > div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #F8FAFC;
+    font-family: 'roboto', sans-serif;
+}
+
+.card p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+    font-family: 'roboto', sans-serif;
+
+}
+
+.card div p:first-child{
+    margin-bottom: 14px;
+}
+.recent-projects{
+    margin-bottom: 94px;
+}
+
+.container-small2{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 139px;
+}
+
+.cards2{
+    display: flex;
+    margin-bottom: 22px;
+    gap: 20px;
+}
+
+.card2{
+    height: 518px;
+    background: #1E293B; 
+    border-radius: 20px;
+
+}
+
+.card2 h4{
+    color: #F8FAFC;
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-family: 'roboto', sans-serif;
+}
+
+.card2 div p:first-child{
+    color: #9CA3AF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'roboto', sans-serif;
+}
+
+.card2 p{
+    color: #F8FAFC;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 23.44px;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    
+}
+
+.footer{
+    border-top: 1px #CBD5E1;
+    border-style: solid;
+    max-width: 1440;
+   
+    
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    color: #CBD5E1;
+    margin-top: 40px;
+}
+.about{
+    color:#CBD5E1 ;
+    font-family: 'roboto',sans-serif;
+    margin-top: 57px;
+}
+.about h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 56px;
+}
+
+.cards:last-child img{
+    width: 200px;
+    height: 200px;
+}
